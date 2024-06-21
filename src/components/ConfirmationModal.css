@@ -1,0 +1,28 @@
+.modal-content {
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .modal-footer {
+    border-top: none;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn-danger {
+    background-color: rgb(236, 58, 58);
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: #95a5a6;
+    border: none;
+  }
+  

@@ -1,0 +1,66 @@
+/* Container for the filter section */
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+  }
+  
+  .filter-container h2 {
+    margin-bottom: 20px;
+    color: #2D2D2D;
+    font-size: 24px;
+  }
+  
+  /* Flex container for the input fields and buttons */
+  .filter-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Styles for input fields */
+  .filter-inputs input,
+  .filter-inputs select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+  }
+  
+  /* Styles for the Filter button */
+  .filter-button {
+    background-color: #7C3AED; /* purple */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .filter-button i {
+    margin-right: 5px;
+  }
+  
+  /* Styles for the Clear button */
+  .clear-button {
+    background-color: #FF6B6B; /* orange */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Hover effects for buttons */
+  .filter-button:hover, .clear-button:hover {
+    opacity: 0.9;
+  }
+  

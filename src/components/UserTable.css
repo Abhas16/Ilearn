@@ -1,0 +1,312 @@
+.user-table-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .table-header h2 {
+    margin: 0;
+  }
+  
+  .table-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-user-btn {
+    background-color: #6f42c1;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f8f9fa;
+  }
+  
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .role {
+    padding: 5px 10px;
+    border-radius: 12px;
+  }
+  
+  .role.super-admin {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .role.moderator {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .role.manager {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .role.admin_1 {
+    background-color: #6f42c1;
+    color: white;
+  }
+  
+  .role.unknown {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 12px;
+  }
+  
+  .status.online {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .status.offline {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-btn.edit {
+    color: #007bff;
+  }
+  
+  .action-btn.delete {
+    color: #dc3545;
+  }
+  
+  .table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .show-results {
+    font-size: 14px;
+  }
+  
+  .show-results select {
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .pagination {
+    display: flex;
+  }
+  
+  .paginationBttns {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .paginationBttns li {
+    margin: 0 5px;
+  }
+  
+  .previousBttn, .nextBttn {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .paginationDisabled {
+    color: #ddd;
+    pointer-events: none;
+  }
+  
+  .paginationActive {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+  }
+  
+  .custom-modal .modal-content {
+    border-radius: 8px;
+  }
+  
+  .custom-modal .modal-header {
+    border-bottom: none;
+  }
+  
+  .custom-modal .modal-title {
+    font-size: 24px;
+  }
+  
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-header .profile-pic-large {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-control:focus {
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-row .form-group {
+    width: 48%;
+  }
+  
+  .custom-modal .modal-footer {
+    border-top: none;
+  }
+  
+  .custom-modal .discard-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-modal .save-changes-btn {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* Confirmation Box Styles */
+.confirmation-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+  }
+  
+  .confirmation-content {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .confirmation-icon {
+    background-color: #ff6b6b;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0 auto 10px auto;
+  }
+  
+  .confirmation-content h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .confirmation-content p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .confirm-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .confirm-btn {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  
